@@ -13,16 +13,16 @@ questoes.forEach(function (questao, index) {
             <div class="card-body">
                 <div class="d-flex">
                     <h1 class="card-title justify-content-between w-100">
-                        Revisão: unidade `+ n_unidade  +`
+                        Revisão: unidade `+ n_unidade + `
                     </h1>
                     <div class="numero-questao">
                         `
-                        +
-                        (index + 1)
-                        + "/" +
-                        questoes.length
-                        +
-                        `
+        +
+        (index + 1)
+        + "/" +
+        questoes.length
+        +
+        `
                     </div>
                 </div>
                 <div class="question w-75 m-auto my-5 py-5">

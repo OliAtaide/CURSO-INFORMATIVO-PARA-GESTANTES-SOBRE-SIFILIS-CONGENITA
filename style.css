@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   font-family: "Jost", sans-serif;
   color: #a43d7f;
@@ -16,6 +17,7 @@ h2 {
 footer {
   margin-top: auto;
 }
+
 footer .navbar {
   background-color: #F0F0F0 !important;
 }
@@ -26,12 +28,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 body .card {
   margin-top: 60px;
   margin-bottom: 56px;
   padding: 30px 40px 50px;
   min-height: calc(100vh - 220px);
 }
+
 body .card .btn-next,
 body .card .btn-start,
 body .card .btn-end {
@@ -41,16 +45,19 @@ body .card .btn-end {
   font-weight: 600;
   padding: 10px 80px;
 }
+
 body .card .card-text p {
   font-size: 20px;
   font-weight: 500;
   margin: 0;
 }
+
 body .card .question .card-title {
   background-color: #ffdfe6;
   padding: 50px 100px;
   border-radius: 8px;
 }
+
 body .card .question .btn-option {
   border: 1px solid #a43d7f;
   width: 100%;
@@ -68,6 +75,7 @@ body .card .question .btn-option {
   color: white;
   font-weight: 600;
 }
+
 .modal .modal-body,
 .modal .btn {
   font-size: 18px;
@@ -78,6 +86,7 @@ body .card .question .btn-option {
 .ok-modal .btn {
   background-color: #178545;
 }
+
 .ok-modal .modal-body p {
   color: #178545;
 }
@@ -86,6 +95,7 @@ body .card .question .btn-option {
 .notok-modal .btn {
   background-color: #b82e2d;
 }
+
 .notok-modal .modal-body p {
   color: #b82e2d;
 }
@@ -101,31 +111,38 @@ body .card .question .btn-option {
   .card {
     padding: 0px !important;
   }
+
   .card .numero-questao {
     background-color: transparent;
     padding: 0;
   }
+
   .card h1,
   .card h2 {
     font-size: 16px;
     width: 100% !important;
   }
+
   .card .question {
     padding: 0 !important;
     margin: 0 !important;
     width: 100% !important;
   }
+
   .card .question .card-title {
     padding: 50px !important;
   }
+
   .card .question p {
     font-size: 16px !important;
   }
+
   .card .btn {
     font-size: 16px !important;
     padding: 10px !important;
     width: 100%;
   }
+
   .card-inicio img {
     width: 50%;
   }

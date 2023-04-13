@@ -2,10 +2,10 @@ questoes = [
     {
         titulo: "Das opções a seguir, qual apresenta possíveis testes que atuam no diagnóstico de sífilis?",
         opcoes: [
+            "Hemograma.",
             "Teste rápido de sífilis e VDRL.",
-            "Hemograma."
         ],
-        resposta: 1,
+        resposta: 2,
         textoAcertou: 'Muito bem! Esses são dois dos possíveis testes que podem diagnosticar a sífilis. Lembrando também do FTA-Abs.',
         textoErrou: 'Ops! Aparentemente tem algo errado aí!'
     },
@@ -32,10 +32,10 @@ questoes = [
     {
         titulo: 'Existe vacina para sífilis?',
         opcoes: [
+            'Existe vacina para sífilis.',
             'Não existe vacina para sífilis.',
-            'Existe vacina para sífilis.'
         ],
-        resposta: 1,
+        resposta: 2,
         textoAcertou: 'Muito bem! Você acertou! Não existe vacina para sífilis, e o seu tratamento é feito com medicação.',
         textoErrou: 'Vamos analisar um pouco mais. Caso tenha dúvidas, você pode voltar e consultar o material.'
     },

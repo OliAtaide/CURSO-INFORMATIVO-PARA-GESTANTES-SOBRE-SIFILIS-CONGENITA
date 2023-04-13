@@ -2,10 +2,10 @@ questoes = [
     {
         titulo: "Qual é a principal forma de transmissão da sífilis?",
         opcoes: [
+            "A partir de alimentos não higienizados.",
             "Através da prática sexual.",
-            "A partir de alimentos não higienizados."
         ],
-        resposta: 1,
+        resposta: 2,
         textoAcertou: 'Muito bem! A sífilis é uma doença sexualmente transmissível.',
         textoErrou: 'Ops! Aparentemente tem algo errado aí!'
     },
@@ -22,10 +22,10 @@ questoes = [
     {
         titulo: 'Quantas e quais são as principais categorias da sífilis na população?',
         opcoes: [
+            '1 categoria: sífilis adquirida.',
             '3 categorias: sífilis adquirida, sífilis em gestantes e sífilis congênita.',
-            '1 categoria: sífilis adquirida.'
         ],
-        resposta: 1,
+        resposta: 2,
         textoAcertou: 'Você acertou! Não dá mais para esquecer, não é?',
         textoErrou: 'Vamos reavaliar. Uma dica: estão faltando mais categorias de sífilis.'
     },
@@ -52,10 +52,10 @@ questoes = [
     {
         titulo: 'Em quais períodos gestacionais é realizado o teste rápido de sífilis durante o pré-natal?',
         opcoes: [
+            'Durante a gestação, o teste rápido de sífilis é realizado apenas na primeira consulta de pré-natal.',
             'Durante a gestação, o teste rápido de sífilis deve ser feito no primeiro e terceiro trimestre e, se possível, também antes do parto.',
-            'Durante a gestação, o teste rápido de sífilis é realizado apenas na primeira consulta de pré-natal.'
         ],
-        resposta: 1,
+        resposta: 2,
         textoAcertou: 'Muito bem! Esses são os momentos em que o teste rápido de sífilis deve ser realizado nas gestantes.',
         textoErrou: 'Ops! Vamos reavaliar.'
     }
